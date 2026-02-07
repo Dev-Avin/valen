@@ -105,7 +105,7 @@ export default function App() {
               className="text-lg"
               style={{ color: theme.colors.textLight }}
             >
-              Celebrate love in all its beautiful forms
+             Celebrating Our Love Forever
             </p>
           </div>
         </section>
@@ -119,14 +119,14 @@ export default function App() {
 
 function getQuote(day: string) {
   const quotes: Record<string, string> = {
-    rose: "A rose speaks of love silently, in a language known only to the heart.",
-    propose: "In all the world, there is no heart for me like yours.",
-    chocolate: "All you need is love. But a little chocolate now and then doesn't hurt.",
-    teddy: "A hug is a perfect gift - one size fits all, and nobody minds if you exchange it.",
-    promise: "Promises are the uniquely human way of ordering the future.",
-    hug: "A hug is like a boomerang - you get it back right away.",
-    kiss: "A kiss is a lovely trick designed by nature to stop speech when words become superfluous.",
-    valentine: "Love is composed of a single soul inhabiting two bodies.",
+    rose: "You deserve 9,999 roses delivered to your footsteps everyday.",
+    propose: "In all the world, there is no heart for me like yours. Will you be mine?",
+    chocolate: "All you need is love, but a little chocolate now and then doesn't hurt.",
+    teddy: "How are you, my dear teddy bear?",
+    promise: "You are my dream among the stars; I promise to love you forever.",
+    hug: "You are the perfect height for my warm embrace.",
+    kiss: "My lips want to whisper endless love to you.",
+    valentine: "Come be mine, my Valentine!",
   };
 
   return quotes[day] || quotes.rose;
