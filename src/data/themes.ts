@@ -1,3 +1,5 @@
+
+
 import { DayTheme } from '../types/valentine'
 
 export const valentineThemes: Record<string, DayTheme> = {
@@ -32,9 +34,9 @@ export const valentineThemes: Record<string, DayTheme> = {
     id: 'propose',
     name: 'Propose Day',
     date: 'February 8',
-    tagline: 'Say Yes to Forever',
+    tagline: 'Say Yes to our Forever',
     description:
-      'Take the leap, ask the question, and let your heart speak. This is where beautiful journeys begin.',
+      'Take the leap,and let your heart speak. This is where our beautiful journeys begins.',
     emoji: '💍',
     icon: 'ring',
     pattern: 'hearts',
@@ -59,9 +61,9 @@ export const valentineThemes: Record<string, DayTheme> = {
     id: 'chocolate',
     name: 'Chocolate Day',
     date: 'February 9',
-    tagline: 'Sweeten Your Love Story',
+    tagline: 'A little sweetness for my Honey',
     description:
-      'Indulge in the sweetness of love. Share chocolate, share joy, share moments that melt hearts.',
+      'Lets indulge in this chocolaty joy as our love melts and merges us together',
     emoji: '🍫',
     icon: 'chocolate',
     pattern: 'playful',
@@ -88,7 +90,7 @@ export const valentineThemes: Record<string, DayTheme> = {
     date: 'February 10',
     tagline: 'Cuddle Up to Cuteness',
     description:
-      'Soft, cuddly, and full of warmth. Give a hug that lasts forever with the perfect teddy companion.',
+      'Soft, cuddly, and full of warmth and then there is pippo ',
     emoji: '🧸',
     icon: 'teddy',
     pattern: 'soft',
@@ -113,9 +115,9 @@ export const valentineThemes: Record<string, DayTheme> = {
     id: 'promise',
     name: 'Promise Day',
     date: 'February 11',
-    tagline: 'Seal Your Commitments',
+    tagline: 'Seal of Commitment',
     description:
-      'Make promises that matter. Tie ribbons of trust, loyalty, and endless devotion.',
+      'A  promises that matters. This one lasts forever',
     emoji: '🤝',
     icon: 'promise',
     pattern: 'ribbons',
@@ -140,9 +142,9 @@ export const valentineThemes: Record<string, DayTheme> = {
     id: 'hug',
     name: 'Hug Day',
     date: 'February 12',
-    tagline: 'Wrap Them in Warmth',
+    tagline: 'Wrapped in Warmth',
     description:
-      'A hug says what words cannot. Embrace the ones you love and let them feel your heartbeat.',
+      'A hug says what words cannot. Lets hug in a way we can hear each others heartbeats .',
     emoji: '🤗',
     icon: 'hug',
     pattern: 'gradient',
@@ -169,7 +171,7 @@ export const valentineThemes: Record<string, DayTheme> = {
     date: 'February 13',
     tagline: 'Seal It with a Kiss',
     description:
-      'A kiss is the language of love. Speak it softly, passionately, and let it linger.',
+      'A kiss is the language of love and with those lips even hours arent enough.',
     emoji: '💋',
     icon: 'kiss',
     pattern: 'glow',
@@ -194,9 +196,9 @@ export const valentineThemes: Record<string, DayTheme> = {
     id: 'valentine',
     name: "Valentine's Day",
     date: 'February 14',
-    tagline: 'Celebrate Love in All Its Glory',
+    tagline: 'Happiest Velentines day my Love',
     description:
-      'The grand finale! Today, we celebrate love, joy, and the beautiful connections that make life magical.',
+      'The grand finale! Today, we celebrate love, joy, and this beautiful connections that makes this life magical.',
     emoji: '❤️',
     icon: 'valentine',
     pattern: 'confetti',
@@ -217,6 +219,7 @@ export const valentineThemes: Record<string, DayTheme> = {
     },
   },
 }
+
 
 export const dayOrder = [
   'rose',
